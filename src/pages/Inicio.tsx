@@ -234,11 +234,10 @@ export default function Inicio() {
               <ArrowRight size={20} />
             </Link>
             <Link
-              href="https://wa.me/5511999999999?text=Olá! Vi seu portfólio e gostaria de um orçamento."
+              ref="https://wa.me/5511999999999?text=Olá! Vi seu portfólio e gostaria de um orçamento."
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition"
-            >
+              className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition" to={''}            >
               WhatsApp
             </Link>
           </div>
